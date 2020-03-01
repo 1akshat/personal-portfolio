@@ -1144,64 +1144,7 @@ button:focus {
     color: #777; }
 
 /*============ End Blog Single Styles  =============*/
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
-/*============== contact_area css ================*/
-.mapBox {
-  height: 420px;
-  margin-top: 80px; }
 
-.contact_info .info_item {
-  position: relative;
-  padding-left: 45px; }
-  .contact_info .info_item i {
-    position: absolute;
-    left: 0;
-    top: 0;
-    font-size: 20px;
-    line-height: 24px;
-    font-weight: 600; }
-  .contact_info .info_item h6 {
-    font-size: 16px;
-    line-height: 24px;
-    color: "Roboto", sans-serif;
-    font-weight: bold;
-    margin-bottom: 0px;
-    color: #000000; }
-    .contact_info .info_item h6 a {
-      color: #000000; }
-  .contact_info .info_item p {
-    font-size: 14px;
-    line-height: 24px;
-    padding: 2px 0px; }
-
-.contact_form .form-group {
-  margin-bottom: 10px; }
-  .contact_form .form-group .form-control {
-    font-size: 13px;
-    line-height: 26px;
-    color: #999;
-    border: 1px solid #eeeeee;
-    font-family: "Roboto", sans-serif;
-    border-radius: 0px;
-    padding-left: 20px; }
-    .contact_form .form-group .form-control:focus {
-      box-shadow: none;
-      outline: none; }
-    .contact_form .form-group .form-control.placeholder {
-      color: #999; }
-    .contact_form .form-group .form-control:-moz-placeholder {
-      color: #999; }
-    .contact_form .form-group .form-control::-moz-placeholder {
-      color: #999; }
-    .contact_form .form-group .form-control::-webkit-input-placeholder {
-      color: #999; }
-  .contact_form .form-group textarea {
-    resize: none; }
-    .contact_form .form-group textarea.form-control {
-      height: 134px; }
-.contact_form .primary_btn {
-  margin-top: 20px; }
 
 /* Contact Success and error Area css
 ============================================================================================ */
@@ -2501,8 +2444,8 @@ h6 {
 /* Start Brand Area css
 ============================================================================================ */
 .single-brand-item {
-  width: 170px;
-  height: 100px;
+  width: 500px;
+  height: 150px;
   cursor: pointer;
   margin-bottom: 30px;
   border: 1px solid #eeeeee;
@@ -2522,7 +2465,7 @@ h6 {
   .single-brand-item .d-table-cell {
     vertical-align: middle; }
   .single-brand-item img {
-    max-width: 80px;
+    max-width: 200px;
     margin: 0 auto;
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;

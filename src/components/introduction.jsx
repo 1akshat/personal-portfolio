@@ -10,7 +10,7 @@ export default class Introduction extends Component{
                             <div className="col-lg-7">
                                 <div className="banner_content">
                                     <h3 className="text-uppercase">Hell0</h3>
-                                    <h1 className="text-uppercase">I am rahi akshat</h1>
+                                    <h1 className="text-uppercase">I am akshat</h1>
                                     <h5 className="text-uppercase">full stack developer</h5>
                                     <div className="d-flex align-items-center">
                                         <a className="primary_btn" href="#"><span>Hire Me</span></a>
@@ -20,7 +20,7 @@ export default class Introduction extends Component{
                             </div>
                             <div className="col-lg-5">
                                 <div className="home_right_img">
-                                    <img className="" src="img/banner/home-right.png" alt=""></img>
+                                    <img className="" src="img/banner/home-page-hero.svg" alt=""></img>
                                 </div>
                             </div>
                         </div>
