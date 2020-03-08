@@ -26,7 +26,7 @@ export default class Aboutme extends Component{
                                         Skilled in all sort of languages and frameworks to have a strong core in full-stack development.
                                         Strong information technology professional with a B-tech focused in Computer Software Engineering from SRM University.
                                     </p>
-                                    <a className="primary_btn" href="#"><span>Download CV</span></a>
+                                    <a className="primary_btn" href="https://docs.google.com/document/d/1V-SuksmbU-ZR8xz8QgmltYwBcXbsBmGdwfbnRoI_n-c/edit?usp=sharing" target={"_blank"}><span>View CV</span></a>
                                 </div>
                             </div>
                         </div>

@@ -13,8 +13,7 @@ export default class Introduction extends Component{
                                     <h1 className="text-uppercase">I am akshat</h1>
                                     <h5 className="text-uppercase">full stack developer</h5>
                                     <div className="d-flex align-items-center">
-                                        <a className="primary_btn" href="#"><span>Hire Me</span></a>
-                                        <a className="primary_btn tr-bg" href="#"><span>Get CV</span></a>
+                                        <a className="primary_btn" href="https://docs.google.com/document/d/1V-SuksmbU-ZR8xz8QgmltYwBcXbsBmGdwfbnRoI_n-c/edit?usp=sharing" target={"_blank"}><span>View CV</span></a>
                                     </div>
                                 </div>
                             </div>
