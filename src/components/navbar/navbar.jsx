@@ -20,7 +20,7 @@ const NavBar = () => {
             {/*Collect the nav links, forms, and other content for toggling*/}
             <div className="collapse navbar-collapse offset" id="navbarSupportedContent">
               <ul className="nav navbar-nav menu_nav justify-content-end">
-                {/* <li className="nav-item active"><a className="nav-link" href="/">Home</a></li> */}
+                <li className="nav-item active"><a className="nav-link" href="/">Home</a></li>
                 {/*<li className="nav-item"><a className="nav-link" href="/Skills">Blog</a></li>*/}
               </ul>
             </div>
