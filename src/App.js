@@ -1,26 +1,23 @@
-import React, { Component } from 'react';
-import './App.css';
-import Navbar from './components/navbar';
-import Introduction from './components/introduction';
-import Aboutme from './components/aboutme';
-import Skills from './components/skills';
-import Contact from './components/contact'
-import Footer from './components/footer';
+import React from 'react';
+import NavBar from './components/navbar/navbar';
+import Introduction from './components/introduction/introduction';
+import AboutMe from './components/aboutMe/aboutme';
+import Skills from './components/skills/skills';
+import Contact from './components/contact/contact'
+import Footer from './components/footer/footer';
 
 
-class App extends Component {
-  render(){
-    return(
-        <div>
-            <Navbar></Navbar>
-            <Introduction></Introduction>
-            <Aboutme></Aboutme>
-            <Skills></Skills>
-            <Contact></Contact>
-            <Footer></Footer>
-        </div>
-    )
-    }
+const App = () => {
+  return (
+    <>
+      <NavBar />
+      <Introduction />
+      <AboutMe />
+      <Skills />
+      <Contact />
+      <Footer />
+    </>
+  )
 }
 
 export default App;
